@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node Backend/server.js",
     "build": "react-scripts build",
-    "dev": "concurrently \"nodemon Backend/server.js\" \"npm start --prefix Backend/frontend\""
+    "dev": "concurrently \"node Backend/server.js\" \"npm start --prefix Backend/frontend\""
   },
   "author": "",
   "license": "ISC",
